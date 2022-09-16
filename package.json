@@ -1,7 +1,7 @@
 {
-  "name": "sails-mongo",
-  "version": "2.0.0",
-  "description": "Mongo DB adapter for Sails.js/Waterline.",
+  "name": "sails-mongo-cloud",
+  "version": "3.0.0",
+  "description": "Mongo DB adapter for Sails.js/Waterline. Forked from sails-mongo and updated with Mongodb Driver v4.9.1",
   "main": "./lib",
   "scripts": {
     "test": "npm run lint && npm run custom-tests",
@@ -27,14 +27,14 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-mongo.git"
+    "url": "git://github.com/sandeeppc/sails-mongo.git"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.4",
-    "async": "3.2.0",
+    "async": "3.2.4",
     "flaverr": "^1.10.0",
     "machine": "^15.2.2",
-    "mongodb": "3.5.9",
+    "mongodb": "4.9.1",
     "qs": "6.9.4"
   },
   "devDependencies": {

@@ -1,8 +1,20 @@
 [![Node.js and MongoDB on Sails.js/Waterline](https://camo.githubusercontent.com/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67)](http://sailsjs.com)
 
-# sails-mongo
+# sails-mongo-cloud
 
 Sails.js/Waterline adapter for MongoDB. (See [compatibility](#compatibility) for more details.)
+
+Forked from [sails-mongo](https://github.com/balderdashy/sails-mongo)
+
+
+Updated Mongo DB Native Driver version to 4.9.1
+
++Supported srv record in url connection
+
++Supported Serverless Atlas Instance Connection
+
++Mongo DB 6.0 Tested
+
 
 > Provides easy access to MongoDB from Sails.js & Waterline.
 > This module is a Sails/Waterline adapter maintained by the core team.  Its goal is to provide robust, easy-to-use access to MongoDB from Sails.js and Waterline.
