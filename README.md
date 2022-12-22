@@ -28,7 +28,7 @@ Updated Mongo DB Native Driver version to 4.9.1
 To install this adapter, run:
 
 ```bash
-$ npm install sails-mongo
+$ npm install sails-mongo-cloud
 ```
 
 Then [connect the adapter](http://sailsjs.com/documentation/reference/configuration/sails-config-datastores) to one or more of your app's datastores.
